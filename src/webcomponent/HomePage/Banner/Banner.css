@@ -1,0 +1,77 @@
+.logorotate{
+    animation: rotation 8s infinite linear;
+}
+.rocket{
+    display: flex;
+    position: absolute;
+    width: 900px;
+    right: 20%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.rocket span{
+    display: flex;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    cursor: pointer;
+    animation:  new 4s linear infinite;
+}
+@keyframes new {
+    0%{
+        width: 40%;
+        height: 30px;
+        border-radius: 22px;
+    }
+    100%{
+        width: 100%;
+        border-radius: 70px;
+    }
+}
+
+.rocket img{
+    display: flex;
+    height: 100px;
+    transform: rotate(43deg);
+}
+.letter{
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.letter p{
+    text-align: center;
+    width: 800px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50px);
+    color: #fff;
+    animation: text 4s linear infinite;
+}
+@keyframes text {
+    0%{
+        font-size: 5px;
+        letter-spacing: 0px;
+    }
+    100%{
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+}
+
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

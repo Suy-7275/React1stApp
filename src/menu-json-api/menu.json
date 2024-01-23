@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Learn",
+        "link" : "/learn",
+        "IsDropDown" : false,
+        "IsButton" : false
+    },
+    {
+        "label": "Reference",
+        "link" : "/reference",
+        "IsDropDown" : true,
+        "IsButton" : false,
+        "dropdownmenu":[
+            {
+                "label": "React",
+                "link" : "/react"
+            },
+            {
+                "label": "React-Dom",
+                "link" : "/reactdom" 
+            }
+        ] 
+    },
+    {
+        "label": "Community",
+        "link" : "/community",
+        "IsDropDown" : true,
+        "IsButton" : false,
+        "dropdownmenu":[
+            {
+                "label": "Stackoverflow",
+                "link" : "/stackoverflow"
+            },
+            {
+                "label": "News",
+                "link" : "/news" 
+            }
+        ] 
+
+        
+    },
+    {
+        "label": "Blog",
+        "link" : "/blog",
+        "IsDropDown" : false,
+        "IsButton" : false
+    },
+    {
+        "label": "Github",
+        "link" : "/github",
+        "IsDropDown" : false,
+        "IsButton" : false
+    },
+    {
+        "label": "Register",
+        "link" : "/register",
+        "IsDropDown" : false,
+        "IsButton" : true
+    }
+]
+    
+    

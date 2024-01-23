@@ -1,0 +1,38 @@
+.anim{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 30vh;
+    background-color: #111;
+
+}
+.anim h2{
+    position: relative;
+    font-size: 60px;
+    color: #222;
+}
+.anim h2::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff;
+    animation: coffee 8s infinite;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+
+}
+.coffee{
+    background-color: #111;
+}
+
+@keyframes coffee {
+    0%, 10%, 100%{
+        
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+}
